@@ -4,7 +4,12 @@ title: Teaching
 ---
 
 <section>
-  <h2 style = "font-size: 1.5rem;">University of Chicago</h2>
+ <h2 style="font-size: 1.5rem;">
+  <a href="https://www.uchicago.edu" target="_blank">
+    <img src="teaching/uchicago_logo.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
+  </a>
+  University of Chicago
+</h2>
   <ul>
       <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
@@ -43,7 +48,12 @@ title: Teaching
 </section>
   
  <section>
-  <h2 style = "font-size: 1.5rem;">University of North Carolina</h2>
+  <h2 style="font-size: 1.5rem;">
+  <a href="https://www.unc.edu" target="_blank">
+    <img src="teaching/unc_logo.png" alt="UNC" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
+  </a>
+  University of North Carolina
+</h2>
    <ul>
      <strong>Microeconomic Foundations of Public Policy (PLCY 310): </strong> Tutor, Spring 2022 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
