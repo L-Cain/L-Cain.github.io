@@ -42,8 +42,8 @@ Government</a>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>What does the public think about the outsourcing of government work to the private sector? Do Americans anticipate higher costs and lower quality when the state contracts with private firms? Holding constant these outcomes, are there residual preferences for state provision of social services? We find tentative affirmative answers to these questions using a series of simple survey experiments. These results indicate that the public expects better results from legislative delegation to bureaucrats and to non-profits than to for-profit firms or when representatives retain the prerogative. When the provider is held constant, the public anticipates worse results on average from giving a private firm broad rather than limited discretion to enact legislative goals. </p>
-     <span style="font-size: 0.95rem; color: #555;"> <a href="https://coauthor1website.com">Pre-analysis </a></span>
-    </div>
+     </div>
+   <span style="font-size: 0.95rem; color: #555;"> <a href="https://coauthor1website.com">Pre-analysis </a></span>
   </div>
 
 
