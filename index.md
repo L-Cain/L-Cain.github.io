@@ -5,7 +5,7 @@ title: Home
 <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; padding: 2rem 0 1rem;">
     <img src="/profile.jpeg" alt="Profile Photo" class="profile-img">
     <div>
-        <h1 style="color: #8080cc; margin-bottom: 2.5rem;">Lucas Cain</h1>
+        <h1 style="color: #8080cc; margin-bottom: 0rem; font-size: 3rem">Lucas Cain</h1>
         <p style="margin-bottom: 0.25rem;">PhD Student</p>
         <p>University of Chicago</p>
     </div>
