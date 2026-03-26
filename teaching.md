@@ -1,3 +1,4 @@
+<br>
 <p>Benjamin Franklin quipped that it is "better to be thought the fool than open your mouth and remove all doubt". That might be good advice for seeming wise, but it's a terrible way learn anything. I'd rather open my mouth and try to remove some doubt than remain the fool. </p>
 
 <section>
