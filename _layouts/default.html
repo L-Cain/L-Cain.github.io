@@ -291,7 +291,17 @@
  
             const spectrumLine = viz.querySelector('.spectrum-line');
             spectrumLine.addEventListener('click', handleLineClick);
- 
+
+            spectrumLine.addEventListener('touchend', (e) => {
+                e.preventDefault();
+                const viz = document.getElementById('gridlock');
+                const rect = viz.getBoundingClientRect();
+                const width = viz.offsetWidth - 100;
+                const x = e.changedTouches[0].clientX - rect.left;
+                state.proposedPolicy = pixelsToPosition(x, width);
+                evaluateProposal(state.proposedPolicy);
+            });
+                        
             createPoint('leftFilibuster', 'Left Filibuster', state.leftFilibuster, width);
             createPoint('rightFilibuster', 'Right Filibuster', state.rightFilibuster, width);
             createPoint('statusQuo', 'x̄', state.statusQuo, width);
@@ -311,7 +321,9 @@
             point.addEventListener('dragstart', dragStart);
             point.addEventListener('drag', drag);
             point.addEventListener('dragend', dragEnd);
- 
+            point.addEventListener('touchstart', touchStart, { passive: false });
+            point.addEventListener('touchmove', touchMove, { passive: false });
+            point.addEventListener('touchend', touchEnd);
             viz.appendChild(point);
  
             points[id] = { element: point, label: null };
@@ -364,7 +376,41 @@
             resetColors();
             draggedId = null;
         }
- 
+
+
+        function touchStart(e) {
+            e.preventDefault();
+            draggedId = e.target.id;
+        }
+        
+        function touchMove(e) {
+            e.preventDefault();
+            if (!draggedId) return;
+            const viz = document.getElementById('gridlock');
+            const rect = viz.getBoundingClientRect();
+            const width = viz.offsetWidth - 100;
+            const x = e.touches[0].clientX - rect.left;
+        
+            let newPos = pixelsToPosition(x, width);
+        
+            if (draggedId === 'leftFilibuster' && newPos > state.rightFilibuster) newPos = state.rightFilibuster;
+            if (draggedId === 'rightFilibuster' && newPos < state.leftFilibuster) newPos = state.leftFilibuster;
+        
+            state[draggedId] = newPos;
+            points[draggedId].element.style.left = positionToPixels(newPos, width) + 'px';
+            updateGridlockRegion(width);
+        }
+        
+        function touchEnd(e) {
+            if (!draggedId) return;
+            const viz = document.getElementById('gridlock');
+            const width = viz.offsetWidth - 100;
+            updateGridlockRegion(width);
+            resetColors();
+            draggedId = null;
+        }
+
+        
         function updateGridlockRegion(width) {
             const region = document.getElementById('gridlock-region');
             const left = positionToPixels(state.leftFilibuster, width);
