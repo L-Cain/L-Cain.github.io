@@ -12,7 +12,7 @@
        <p><strong>Syllabus </strong></p>
        </div>
      </ul>  
-
+ <br>
 
   <ul>
       <strong> Intro to Quantitative Social Science (PLSC 30500): </strong>  Teaching Assistant, Fall 2025 <br>
@@ -37,7 +37,6 @@
       <img src="teaching/coinflip_convergence.gif" alt="Coin flip convergence" style="max-width: 100%; height: auto;">
       </div>
   </ul>
-  <br>
 
   
   <h3>University of North Carolina</h3>
