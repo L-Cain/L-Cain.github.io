@@ -46,22 +46,20 @@
      <strong>PLCY 310 Microeconomic Foundations of Public Policy: </strong> Coding Instructor, Summer 2025 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;"> 
-      <p><strong>Level: </strong>  PhD </p>
-      <p><strong>Description: This course allows students to enhance their working knowledge of microeconomic theory, explore microeconomic theory as a methodology to solve policy problems, understand market failures and the role of collective action in markets, apply economic models to a variety of policy situations, and evaluate and critique economic analyses.</strong> </p>
-      <p><strong>Resources</strong></p>
-       </div>
+      <p><strong>Level: </strong>  Undergraduate </p>
+      <p><strong> Description:</strong> This course allows students to enhance their working knowledge of microeconomic theory, explore microeconomic theory as a methodology to solve policy problems, understand market failures and the role of collective action in markets, apply economic models to a variety of policy situations, and evaluate and critique economic analyses.</p>
+      </div>
     </ul>
    <br>
    <ul>
     <strong>POLI 271 Modern Political Thought </strong> Coding Instructor, Summer 2025 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p><strong>Level: </strong>  PhD </p>
+      <p><strong>Level: </strong>  Undergraduate </p>
       <p><strong>Instructor: </strong>  Devin Christensen </p>
       <p><strong>Description: </strong> Survey course designed to introduce students to major political thinkers and schools of thought dating roughly from the 16th century to the present. Honors version available.
 
 </p>
-      <p><strong>Resources</strong></p>
-      </div>
+    </div>
   </ul>
   </section>
