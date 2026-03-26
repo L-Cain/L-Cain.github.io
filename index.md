@@ -10,13 +10,3 @@ title: Home
  
   <p>My CV is available here. I can be reached at lhcain@uchicago.edu.</p>
 </section>
- 
-<section>
-  <h2>Recent News</h2>
-  <ul>
-    <li><strong>December 2024:</strong> New paper accepted to [Conference/Journal Name]</li>
-    <li><strong>November 2024:</strong> Presented research at [Conference Name]</li>
-    <li><strong>October 2024:</strong> Awarded [Grant/Award Name]</li>
-  </ul>
-</section>
- 
