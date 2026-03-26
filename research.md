@@ -8,7 +8,7 @@ Retail Sales</a>
 <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>Your abstract text goes here.</p>
+      <p>A summary measure of multiple high-frequency indicators of retail sales (including payment card transactions, foot traffic, gas sales, and consumer sentiment), CARTS grew out of pandemic-era research that aimed to improve the timeliness and reliability of traditional measures of U.S. retail spending.</p>
     </div>
   </div>
   <div style="margin-bottom: 1.5rem;">
