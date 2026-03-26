@@ -69,7 +69,7 @@ title: Teaching
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  Undergraduate </p>
       <p><strong>Instructor: </strong>  Devin Christensen </p>
-      <p><strong>Description: </strong> Survey course designed to introduce students to major political thinkers and schools of thought dating roughly from the 16th century to the present. Honors version available.
+      <p><strong>Description: </strong> Survey course designed to introduce students to major political thinkers and schools of thought dating roughly from the 16th century to the present.
 
 </p>
     </div>
