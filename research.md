@@ -50,7 +50,16 @@ and Gaps: Nine Facts About the Disparities</a>
     </div>
   </div>
 
-  
+   <div style="margin-bottom: 1.5rem;">
+    <a href="papers/EE_Lit_Rev.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Immigration and the Labor Market in the Post-Pandemic Recovery</a>
+    <br>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Paige Weber</a>, <a href="https://coauthor1website.com">Danae Hernandez-Cortes</a>, and <a href="https://coauthor2website.com">Christopher Timmins</a></span>
+<br>
+    <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
+    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
+      <p>This review synthesizes economics-oriented research in environmental justice with a focus on the last decade. We first categorize this literature into broad areas of inquiry and review main findings. Then, we review recent advances in data and methodologies that have allowed for new study designs and research questions. After identifying breakthroughs, we offer some guidance on how to continue to advance research in this area.</p>
+    </div>
+  </div>
 
   
 </section>
