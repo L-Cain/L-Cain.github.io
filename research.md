@@ -8,7 +8,7 @@
     style="margin-top: 0.5rem; background: none; border: none; color: #8080cc; padding: 0.25rem 0; cursor: pointer; font-family: inherit; font-size: 0.9rem;"
       Abstract ▼
     </button>
-    <div style="display: none; margin-top: 0.75rem; padding: 1rem; background: #f0f0f8; border-left: 3px solid #8080cc; border-radius: 0 4px 4px 0;">
+    <div style="margin-top: 0.5rem; background: none; border: none; color: #8080cc; padding: 0.25rem 0; cursor: pointer; font-family: inherit; font-size: 0.9rem;">
       <p>Your abstract text goes here.</p>
     </div>
   </div>
