@@ -32,26 +32,12 @@
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  PhD </p>
-      <p><strong>Description: </strong> This is the preparatory math and coding background for incoming PhD students intending to do empirical work in political science. I led the coding portion, focused on R. We went from total unfamiliarity to being prepared for graduate-level coursework in quantitative methods. Topics covered include objects and logic, packages and functions, tidyverse and data manipulation, data visualization, compiling and LaTeX, Loops, Monte Carlo simulation, expectation variance and covariance, central limit theorem, the law of large numbers, the basics of distributions. My students/friends are making great use of this foundation. </p>
+      <p><strong>Description: </strong> This is the preparatory math and coding background for incoming PhD students intending to do empirical work in political science. I led the coding portion, focused on R. We went from total unfamiliarity to being prepared for graduate-level coursework in quantitative methods. Topics covered include objects and boolean logic, packages and functions, tidyverse and data manipulation, data visualization, compiling and LaTeX, lops, Monte Carlo simulation, expectation, variance, and covariance, central limit theorem, the law of large numbers, the basics of distributions. My students/friends are making great use of this foundation. </p>
+      <p><strong>Resources</strong></p>
       </div>
   </ul>
   <br>
 
-  <ul>
-      <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
-      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
-    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p><strong>Level: </strong>  Undergraduate </p>
-      <p><strong>Instructor: </strong>  Jon Rogowski </p>
-      <p><strong>Description: </strong> This course surveys the politics of presidential power. We consider the demands and constraints of the presidency as an institution, its origins and historical development, interactions with Congress, the courts, the bureaucracy, and the public. We cover the influence presidents wield in domestic and foreign policymaking, and the ways in which presidents make decisions in a system of separated powers. </p>
-      </div>
-  </ul>
-  <br>
-
-<ul>
-      <strong>PLSC 49999 Math Camp</strong>: Coding Instructor, Summer 2025<br>
-      [Description]
-  </ul>
   
   <h3>University of North Carolina</h3>
    <ul>
