@@ -2,7 +2,7 @@
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
   <p>For updated drafts, <a href="mailto:lhcain@uchicago.edu">email me</a>!</p>
   <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
+    <a target="_blank" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
 Government</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Jon Rogowski</a>
@@ -15,7 +15,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Misaligned Voting Diagnostics</a>
+    <a target="_blank" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Misaligned Voting Diagnostics</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Andy Eggers </a></span>
 <br>
@@ -26,7 +26,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Presidential Influence and Monetary Policy</a>
+    <a target="_blank" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Presidential Influence and Monetary Policy</a>
     <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
@@ -35,7 +35,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Delegation Preferences: Public Attitudes Towards Government Service Providers
+    <a target="_blank" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Delegation Preferences: Public Attitudes Towards Government Service Providers
 </a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kevin Angell </a></span>
