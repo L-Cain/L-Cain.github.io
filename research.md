@@ -1,5 +1,5 @@
 <section>
-  <h2>Working Papers</h2>
+  <h3>Works in Progress</h3>
   <div style="margin-bottom: 1.5rem;">
     <a href="/papers/paper1.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Paper Title Here</a>
     <br>
@@ -18,7 +18,7 @@
   </div>
 </section>
 <section>
-  <h2>Works in Progress</h2>
+  <h3>Publications</h3>
   <div style="margin-bottom: 1.5rem;">
     <a href="/papers/paper3.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Paper Title Here</a>
     <br>
