@@ -25,11 +25,11 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a href="papers/hull_early.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Presidential Influence and Monetary Policy</a>
+    <a href="papers/fed_pres.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Presidential Influence and Monetary Policy</a>
     <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>Misaligned voting, when one casts a vote for a candidate they do not prefer to all others, is an important characteristic of voting systems. It may implicate strategic voting, confusion, or other behaviors. Misaligned voting is difficult to identify, and current methods may make biased estimates in identifying the overall rate and in identifying differences between voting systems. They are also ill-equipped to take in more than one dimension of voter preferences. Wepropose two new metrics, the convex hull and weak domination approaches, and test their performance in a series of simulations.</p>
+      <p>I investigate the influence of the President on the Federal Reserve Board of Governors. I test whether Presidents can select party loyalists to the board. I will also test the President's ability to exert political pressure on the Fed, directly, through Congress, and through public sentiment.</p>
     </div>
   </div>
 
