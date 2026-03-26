@@ -4,21 +4,21 @@
   <h3>University of Chicago</h3>
   <ul>
     <li>
-      <strong><a>href PLSC 10400: Politics of the American Presidency</a></strong> — Teaching Assistant, Winter 2026<br>
+      <strong>PLSC 10400: Politics of the American Presidency</strong>: Teaching Assistant, Winter 2026<br>
       [Description]
     </li>
   </ul>
 
   <ul>
     <li>
-      <strong><a>href PLSC 30500: Intro to Quantitative Social Science</a></strong> — Head Teaching Assistant, Fall 2025<br>
+      <strong>PLSC 30500: Intro to Quantitative Social Science</strong>: Head Teaching Assistant, Fall 2025<br>
       [Description]
     </li>
   </ul>
 
 <ul>
     <li>
-      <strong><a>href PLSC 49999: Math Camp </a></strong> — Coding Instructor, Summer 2025<br>
+      <strong>PLSC 49999: Math Camp</strong>: Coding Instructor, Summer 2025<br>
       [Description]
     </li>
   </ul>
