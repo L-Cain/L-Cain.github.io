@@ -4,11 +4,11 @@
   <h3>University of Chicago</h3>
   <ul>
     <li>
-      <strong>[Course Name]</strong> — [Role: ], [Quarter/Semester Year]<br>
+      <strong><a>href PLSC 10400</a></strong> — [Role: ], [Quarter/Semester Year]<br>
       [Description]
     </li>
   </ul>
-  <h3>Guest Lectures</h3>
+  <h3>University of North Carolina</h3>
   <ul>
     <li>[Course or event], [Institution], [Year]</li>
   </ul>
