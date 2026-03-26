@@ -4,7 +4,9 @@
   <h3>University of Chicago</h3>
   <ul>
       <strong>PLSC 10400 Politics of the American Presidency</strong>: Teaching Assistant, Winter 2026<br>
-      Undergraduate
+      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
+    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
+      <p>We map the offices and individuals that comprised the US federal government from the founding through the 1950s. With these new data, we intend to better understand the motivations that led to civil service reform and its effects on the federal workforce.</p>
   </ul>
 
   <ul>
