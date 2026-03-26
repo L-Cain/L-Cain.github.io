@@ -42,6 +42,7 @@
   
  <section>
   <h2 style = "font-size: 1.5rem;">University of North Carolina</h2>
+   <u1>
      <strong>PLCY 310 Microeconomic Foundations of Public Policy: </strong> Coding Instructor, Summer 2025 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;"> 
