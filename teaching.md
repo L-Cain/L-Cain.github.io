@@ -1,7 +1,6 @@
 <section>
   <h2 style = "font-size: 1.5rem;">University of Chicago</h2>
   <p>Benjamin Franklin quipped that it is "better to be thought the fool than open your mouth and remove all doubt". That might be good advice for seeming wise, but it's a terrible way learn anything. I'd rather open my mouth and try to remove some doubt than remain the fool. </p>
-  <h3>University of Chicago</h3>
   <ul>
       <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
