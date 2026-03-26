@@ -34,7 +34,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a href="papers/fed_pres.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Delegation Preferences:Public Attitudes Towards Government Service Providers
+    <a href="papers/fed_pres.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Delegation Preferences: Public Attitudes Towards Government Service Providers
 </a>
     <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
