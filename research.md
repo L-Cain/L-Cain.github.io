@@ -1,5 +1,5 @@
 <section>
-  <h2 style = "text-size: 1.5rem">Works in Progress</h2>
+  <h2 style = "text-size: 1.2rem">Works in Progress</h2>
   <div style="margin-bottom: 1.5rem;">
     <a href="/papers/paper1.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Paper Title Here</a>
     <br>
