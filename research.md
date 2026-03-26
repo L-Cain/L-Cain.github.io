@@ -46,10 +46,9 @@ Government</a>
      </div>
   <br> <span style="font-size: 0.95rem; color: #555;"> <a href="https://coauthor1website.com">Pre-analysis plan</a></span>
   </div>
-
-
-  
 </section>
+
+
 
 
 
@@ -57,7 +56,7 @@ Government</a>
   <h2 style = "font-size: 1.5rem;">Publications</h2>
   
    <div style="margin-bottom: 1.5rem;">
-    <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">What’s New in CARTS 2.1? Updates to Our Index Tracking National 
+    <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; text-decoration: none;">What’s New in CARTS 2.1? Updates to Our Index Tracking National 
 Retail Sales</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Scott Brave</a>, <a href="https://coauthor1website.com">Ross Cole</a>, and <a href="https://coauthor2website.com">Ezra Karger</a></span>
