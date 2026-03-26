@@ -1,3 +1,6 @@
+Default · HTML
+Copy
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,22 +14,34 @@
             padding: 0;
             box-sizing: border-box;
         }
- a.paper-title {
-    color: #333;
-}
-
-a.paper-title:hover {
-    color: #5555aa;
-    text-decoration: none;
-}
+ 
         body {
             font-family: 'Cambria Math', 'Cambria', serif;
             line-height: 1.6;
             color: #333;
             background-color: #f9f9f9;
-            p {
-    margin-bottom: 1rem;
-}
+        }
+ 
+        p {
+            margin-bottom: 1rem;
+        }
+ 
+        a {
+            color: #8080cc;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+ 
+        a.paper-title {
+            color: #333;
+        }
+ 
+        a.paper-title:hover {
+            color: #5555aa;
+            text-decoration: none;
         }
  
         header {
@@ -129,25 +144,17 @@ a.paper-title:hover {
             margin-top: 3rem;
         }
  
-        a {
-            color: #8080cc;
-            text-decoration: none;
-        }
- 
-        a:hover {
-            text-decoration: underline;
-        }
- 
         /* Gridlock Interval Styles */
         .gridlock-container {
             padding: 0rem 0 0 0;
             margin-bottom: 2rem;
         }
  
-       <div class="gridlock-viz" id="gridlock">
-    <div class="spectrum-line"></div>
-    <div class="gridlock-region" id="gridlock-region"></div>
-</div>
+        .gridlock-viz {
+            position: relative;
+            height: 20px;
+            margin: 0;
+        }
  
         .spectrum-line {
             position: absolute;
@@ -243,19 +250,23 @@ a.paper-title:hover {
     <header>
         <div class="container">
             <div class="gridlock-container">
-                <div class="gridlock-viz" id="gridlock">
-                    <div class="spectrum-line"></div>
-                    <div class="gridlock-region" id="gridlock-region"></div>
+                <div style="position: relative;">
+                    <a href="https://adambrown.info/p/notes/krehbiel_pivotal_politics" target="_blank" style="position: absolute; top: 0; right: 0; color: #ccc; font-size: 1rem; text-decoration: none; line-height: 1;">?</a>
+                    <div class="gridlock-viz" id="gridlock">
+                        <div class="spectrum-line"></div>
+                        <div class="gridlock-region" id="gridlock-region"></div>
+                    </div>
                 </div>
             </div>
-   </header>
+        </div>
+    </header>
  
     <nav>
         <ul>
             <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
             <li><a href="/research" {% if page.url contains "research" %}class="active"{% endif %}>Research</a></li>
             <li><a href="/teaching" {% if page.url contains "teaching" %}class="active"{% endif %}>Teaching</a></li>
-         </ul>
+        </ul>
     </nav>
  
     <div class="container">
@@ -264,7 +275,7 @@ a.paper-title:hover {
  
     <footer>
         <div class="container">
-            <p>&copy; 1<sup>3</sup>+1<sup>3</sup>+2<sup>3</sup>+2<sup>3</sup>+2<sup>3</sup>+10<sup>3</sup>+10<sup>3</sup> Lucas Cain </p>
+            <p>&copy; 1<sup>3</sup>+1<sup>3</sup>+2<sup>3</sup>+2<sup>3</sup>+2<sup>3</sup>+10<sup>3</sup>+10<sup>3</sup> Lucas Cain</p>
             <p>Last updated: {{ site.time | date: "%B %Y" }}</p>
         </div>
     </footer>
@@ -285,7 +296,7 @@ a.paper-title:hover {
  
             const spectrumLine = viz.querySelector('.spectrum-line');
             spectrumLine.addEventListener('click', handleLineClick);
-
+ 
             spectrumLine.addEventListener('touchend', (e) => {
                 e.preventDefault();
                 const viz = document.getElementById('gridlock');
@@ -295,7 +306,7 @@ a.paper-title:hover {
                 state.proposedPolicy = pixelsToPosition(x, width);
                 evaluateProposal(state.proposedPolicy);
             });
-                        
+ 
             createPoint('leftFilibuster', 'Left Filibuster', state.leftFilibuster, width);
             createPoint('rightFilibuster', 'Right Filibuster', state.rightFilibuster, width);
             createPoint('statusQuo', 'x̄', state.statusQuo, width);
@@ -370,13 +381,12 @@ a.paper-title:hover {
             resetColors();
             draggedId = null;
         }
-
-
+ 
         function touchStart(e) {
             e.preventDefault();
             draggedId = e.target.id;
         }
-        
+ 
         function touchMove(e) {
             e.preventDefault();
             if (!draggedId) return;
@@ -384,17 +394,17 @@ a.paper-title:hover {
             const rect = viz.getBoundingClientRect();
             const width = viz.offsetWidth - 100;
             const x = e.touches[0].clientX - rect.left;
-        
+ 
             let newPos = pixelsToPosition(x, width);
-        
+ 
             if (draggedId === 'leftFilibuster' && newPos > state.rightFilibuster) newPos = state.rightFilibuster;
             if (draggedId === 'rightFilibuster' && newPos < state.leftFilibuster) newPos = state.leftFilibuster;
-        
+ 
             state[draggedId] = newPos;
             points[draggedId].element.style.left = positionToPixels(newPos, width) + 'px';
             updateGridlockRegion(width);
         }
-        
+ 
         function touchEnd(e) {
             if (!draggedId) return;
             const viz = document.getElementById('gridlock');
@@ -403,8 +413,7 @@ a.paper-title:hover {
             resetColors();
             draggedId = null;
         }
-
-        
+ 
         function updateGridlockRegion(width) {
             const region = document.getElementById('gridlock-region');
             const left = positionToPixels(state.leftFilibuster, width);
