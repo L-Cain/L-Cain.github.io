@@ -106,4 +106,6 @@ and Gaps: Nine Facts About the Disparities</a>
 
   
 </section>
-<p style="color: #bbb; font-size: 0.8rem; text-align: right; margin-top: -1rem;">My Erdős number is finite, but only just. \n Finding it is an exercise left to the reader.</p>
+<p style="color: #bbb; font-size: 0.8rem; text-align: right; margin-top: -1rem;">My Erdős number is finite, but only just. 
+  
+  Finding it is an exercise left to the reader.</p>
