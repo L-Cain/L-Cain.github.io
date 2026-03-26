@@ -1,6 +1,6 @@
 <section>
   <h2>Teaching</h2>
-  <p>Benjamin Franklin quipped that it is "Better to be thought fhe fool than open your mouth and remove all doubt". Boy was he wrong.</p>
+  <p>Benjamin Franklin quipped that it is "Better to be thought the fool than open your mouth and remove all doubt". That might be good advice for seeming wise, but it's a terrible maxim if you want to learn anything. I'd rather open my mouth and remove all doubt than be thought the fool. </p>
   <h3>University of Chicago</h3>
   <ul>
       <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
