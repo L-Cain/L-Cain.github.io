@@ -5,7 +5,7 @@ title: Research
 
 <section>
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
-  <p>For updated drafts, <a href="mailto:lhcain@uchicago.edu">email me</a>!</p>
+  <p>For early drafts, <a href="mailto:lhcain@uchicago.edu">email me</a>!</p>
   <div style="margin-bottom: 1.5rem;">
     <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
 Government</a>
