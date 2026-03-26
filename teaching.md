@@ -4,7 +4,7 @@
   <h3>University of Chicago</h3>
   <ul>
     <li>
-      <strong><a>href PLSC 10400</a></strong> — [Role: ], [Quarter/Semester Year]<br>
+      <strong><a>href PLSC 10400</a></strong> — Teaching Assistant, Winter 2026<br>
       [Description]
     </li>
   </ul>
