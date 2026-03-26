@@ -21,7 +21,7 @@ Government</a>
    <div style="margin-bottom: 1.5rem;">
     <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Misaligned Voting Diagnostics</a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Andy Eggers </a></span><br>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://andy.egge.rs/">Andy Eggers </a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>Misaligned voting, when one casts a vote for a candidate they do not prefer to all others, is an important characteristic of voting systems. It may implicate strategic voting, confusion, or other behaviors. Misaligned voting is difficult to identify, and current methods may make biased estimates in identifying the overall rate and in identifying differences between voting systems. They are also ill-equipped to take in more than one dimension of voter preferences. Wepropose two new metrics, the convex hull and weak domination approaches, and test their performance in a series of simulations.</p>
@@ -40,12 +40,12 @@ Government</a>
     <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Delegation Preferences: Public Attitudes Towards Government Service Providers
 </a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kevin Angell </a></span><br>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://voices.uchicago.edu/kevinjangell/">Kevin Angell </a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>What does the public think about the outsourcing of government work to the private sector? Do Americans anticipate higher costs and lower quality when the state contracts with private firms? Holding constant these outcomes, are there residual preferences for state provision of social services? We find tentative affirmative answers to these questions using a series of simple survey experiments. These results indicate that the public expects better results from legislative delegation to bureaucrats and to non-profits than to for-profit firms or when representatives retain the prerogative. When the provider is held constant, the public anticipates worse results on average from giving a private firm broad rather than limited discretion to enact legislative goals. </p>
      </div>
-  <br> <span style="font-size: 0.95rem; color: #555;"> <a href="https://coauthor1website.com">Pre-analysis plan</a></span>
+  <br> <span style="font-size: 0.95rem; color: #555;"> <a href="https://osf.io/3vzyx/overview">Pre-analysis plan</a></span>
   </div>
 </section>
 
