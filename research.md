@@ -1,7 +1,7 @@
 <section>
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
   <div style="margin-bottom: 1.5rem;">
-    <a href="/papers/paper2.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
+    <a target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
 Government</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Jon Rogowski</a>
