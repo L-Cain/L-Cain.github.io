@@ -40,7 +40,7 @@ and Gaps: Nine Facts About the Disparities</a>
   </div>
 
   <div style="margin-bottom: 1.5rem;">
-    <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Recent Findings and Methodologies in Economics Research in Environmental Justice</a>
+    <a href="papers/EE_Lit_Rev.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Recent Findings and Methodologies in Economics Research in Environmental Justice</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Paige Weber</a>, <a href="https://coauthor1website.com">Danae Hernandez-Cortes</a>, and <a href="https://coauthor2website.com">Christopher Timmins</a></span>
 <br>
