@@ -1,3 +1,8 @@
+---
+layout: default
+title: Teaching
+---
+
 <section>
   <h2 style = "font-size: 1.5rem;">University of Chicago</h2>
   <ul>
