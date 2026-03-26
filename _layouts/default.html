@@ -5,12 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Cain - {{ page.title }}</title>
     <style>
-        /* ... all your existing CSS ... */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            font-family: 'Cambria Math', 'Cambria', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+ 
+        header {
+            background: linear-gradient(135deg, #a7a7cf 0%, #9595c0 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+ 
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+ 
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+ 
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+        }
+ 
+        .header-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+ 
+        .header-text p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+ 
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+ 
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+ 
+        nav li {
+            margin: 0;
+        }
+ 
+        nav a {
+            display: block;
+            padding: 1rem 1.5rem;
+            color: #a7a7cf;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+            font-weight: 500;
+        }
+ 
+        nav a:hover, nav a.active {
+            background-color: #e3e3f4;
+            color: #a7a7cf;
+        }
+ 
+        section {
+            background: white;
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+ 
+        h2 {
+            color: #a7a7cf;
+            border-bottom: 3px solid #e3e3f4;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+ 
+        h3 {
+            color: #a7a7cf;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+ 
+        footer {
+            background-color: #a7a7cf;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+ 
+        a {
+            color: #a7a7cf;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+ 
+        /* Gridlock Interval Styles */
+        .gridlock-container {
+            padding: 0rem 0 0 0;
+            margin-bottom: 0;
+        }
+ 
+        .gridlock-viz {
+            position: relative;
+            height: 20px;
+            margin: 0;
+        }
+ 
+        .spectrum-line {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            right: 50px;
+            height: 3px;
+            background: #333;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+ 
+        .gridlock-region {
+            position: absolute;
+            top: 50%;
+            height: 30px;
+            background: rgba(200, 200, 200, 0.5);
+            transform: translateY(-50%);
+            border: 2px solid #333;
+            border-radius: 4px;
+            pointer-events: none;
+        }
+ 
+        .point {
+            position: absolute;
+            top: 50%;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: move;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+ 
+        .point:hover {
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+ 
+        .point.favor {
+            background: #4caf50;
+        }
+ 
+        .point.oppose {
+            background: #f44336;
+        }
+ 
+        .point.neutral {
+            background: #e3e3f4;
+        }
+ 
+        .point.statusquo {
+            width: 2px;
+            height: 20px;
+            border-radius: 0;
+            background: #333;
+        }
+ 
+        .label {
+            position: absolute;
+            top: calc(50% + 25px);
+            transform: translateX(-50%);
+            font-size: 0.85rem;
+            white-space: nowrap;
+            color: #555;
+        }
+ 
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+ 
+            .header-text h1 {
+                font-size: 2rem;
+            }
+ 
+            nav ul {
+                flex-direction: column;
+            }
+ 
+            nav a {
+                border-bottom: 1px solid #eee;
+            }
+ 
+            .gridlock-viz {
+                height: 40px;
+            }
+        }
     </style>
 </head>
 <body>
-    <header>...</header>
-
+    <header>
+        <div class="container">
+            <div class="gridlock-container">
+                <div class="gridlock-viz" id="gridlock">
+                    <div class="spectrum-line"></div>
+                    <div class="gridlock-region" id="gridlock-region"></div>
+                </div>
+            </div>
+ 
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Lucas Cain</h1>
+                </div>
+                <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-img">
+            </div>
+            <div class="header-text">
+                <p>PhD Student</p>
+                <p>University of Chicago</p>
+            </div>
+        </div>
+    </header>
+ 
     <nav>
         <ul>
             <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
@@ -20,12 +261,183 @@
             <li><a href="/contact" {% if page.url contains "contact" %}class="active"{% endif %}>Contact</a></li>
         </ul>
     </nav>
-
+ 
     <div class="container">
         {{ content }}
     </div>
-
-    <footer>...</footer>
-    <script>/* ... your existing JS ... */</script>
+ 
+    <footer>
+        <div class="container">
+            <p>&copy; {{ site.time | date: "%Y" }} Lucas Cain. All rights reserved.</p>
+            <p>Last updated: {{ site.time | date: "%B %Y" }}</p>
+        </div>
+    </footer>
+ 
+    <script>
+        const state = {
+            leftFilibuster: 25,
+            rightFilibuster: 75,
+            statusQuo: 45,
+            proposedPolicy: null
+        };
+ 
+        const points = {};
+ 
+        function initVisualization() {
+            const viz = document.getElementById('gridlock');
+            const width = viz.offsetWidth - 100;
+ 
+            const spectrumLine = viz.querySelector('.spectrum-line');
+            spectrumLine.addEventListener('click', handleLineClick);
+ 
+            createPoint('leftFilibuster', 'Left Filibuster', state.leftFilibuster, width);
+            createPoint('rightFilibuster', 'Right Filibuster', state.rightFilibuster, width);
+            createPoint('statusQuo', 'x̄', state.statusQuo, width);
+ 
+            updateGridlockRegion(width);
+            resetColors();
+        }
+ 
+        function createPoint(id, label, position, width) {
+            const viz = document.getElementById('gridlock');
+            const point = document.createElement('div');
+            point.className = 'point ' + (id === 'statusQuo' ? 'statusquo' : 'neutral');
+            point.id = id;
+            point.style.left = positionToPixels(position, width) + 'px';
+ 
+            point.draggable = true;
+            point.addEventListener('dragstart', dragStart);
+            point.addEventListener('drag', drag);
+            point.addEventListener('dragend', dragEnd);
+ 
+            viz.appendChild(point);
+ 
+            points[id] = { element: point, label: null };
+        }
+ 
+        function positionToPixels(pos, width) {
+            return 50 + (pos / 100) * width;
+        }
+ 
+        function pixelsToPosition(px, width) {
+            return Math.max(0, Math.min(100, ((px - 50) / width) * 100));
+        }
+ 
+        let draggedId = null;
+ 
+        function dragStart(e) {
+            draggedId = e.target.id;
+        }
+ 
+        function drag(e) {
+            if (!draggedId || e.clientX === 0) return;
+            const viz = document.getElementById('gridlock');
+            const rect = viz.getBoundingClientRect();
+            const width = viz.offsetWidth - 100;
+            const x = e.clientX - rect.left;
+ 
+            let newPos = pixelsToPosition(x, width);
+ 
+            if (draggedId === 'leftFilibuster' && newPos > state.rightFilibuster) {
+                newPos = state.rightFilibuster;
+            }
+            if (draggedId === 'rightFilibuster' && newPos < state.leftFilibuster) {
+                newPos = state.leftFilibuster;
+            }
+ 
+            state[draggedId] = newPos;
+ 
+            const constrainedPixels = positionToPixels(newPos, width);
+            const point = points[draggedId];
+            point.element.style.left = constrainedPixels + 'px';
+ 
+            updateGridlockRegion(width);
+        }
+ 
+        function dragEnd(e) {
+            if (!draggedId) return;
+            const viz = document.getElementById('gridlock');
+            const width = viz.offsetWidth - 100;
+            updateGridlockRegion(width);
+            resetColors();
+            draggedId = null;
+        }
+ 
+        function updateGridlockRegion(width) {
+            const region = document.getElementById('gridlock-region');
+            const left = positionToPixels(state.leftFilibuster, width);
+            const right = positionToPixels(state.rightFilibuster, width);
+            region.style.left = left + 'px';
+            region.style.width = (right - left) + 'px';
+        }
+ 
+        function resetColors() {
+            Object.keys(points).forEach(id => {
+                if (id !== 'statusQuo') {
+                    points[id].element.className = 'point neutral';
+                }
+            });
+            state.proposedPolicy = null;
+        }
+ 
+        function handleLineClick(e) {
+            const viz = document.getElementById('gridlock');
+            const rect = viz.getBoundingClientRect();
+            const width = viz.offsetWidth - 100;
+            const x = e.clientX - rect.left;
+            const proposedPos = pixelsToPosition(x, width);
+ 
+            state.proposedPolicy = proposedPos;
+            evaluateProposal(proposedPos);
+        }
+ 
+        function evaluateProposal(proposal) {
+            const sq = state.statusQuo;
+ 
+            const leftFilibusterFavors = Math.abs(proposal - state.leftFilibuster) < Math.abs(sq - state.leftFilibuster);
+            const rightFilibusterFavors = Math.abs(proposal - state.rightFilibuster) < Math.abs(sq - state.rightFilibuster);
+ 
+            points.leftFilibuster.element.className = 'point ' + (leftFilibusterFavors ? 'favor' : 'oppose');
+            points.rightFilibuster.element.className = 'point ' + (rightFilibusterFavors ? 'favor' : 'oppose');
+ 
+            const vetoPlayers = [
+                { name: 'Left Filibuster', favors: leftFilibusterFavors },
+                { name: 'Right Filibuster', favors: rightFilibusterFavors }
+            ];
+ 
+            const opposition = vetoPlayers.filter(v => !v.favors);
+ 
+            if (opposition.length === 0) {
+                state.statusQuo = proposal;
+                const viz = document.getElementById('gridlock');
+                const width = viz.offsetWidth - 100;
+                const sqPoint = points.statusQuo;
+                sqPoint.element.style.left = positionToPixels(proposal, width) + 'px';
+ 
+                setTimeout(() => { resetColors(); }, 2000);
+            } else {
+                setTimeout(() => { resetColors(); }, 2000);
+            }
+        }
+ 
+        function resetVisualization() {
+            state.leftFilibuster = 25;
+            state.rightFilibuster = 75;
+            state.statusQuo = 45;
+            state.proposedPolicy = null;
+ 
+            const viz = document.getElementById('gridlock');
+            viz.innerHTML = '<div class="spectrum-line"></div><div class="gridlock-region" id="gridlock-region"></div>';
+ 
+            initVisualization();
+        }
+ 
+        window.addEventListener('load', initVisualization);
+        window.addEventListener('resize', () => {
+            const viz = document.getElementById('gridlock');
+            viz.innerHTML = '<div class="spectrum-line"></div><div class="gridlock-region" id="gridlock-region"></div>';
+            initVisualization();
+        });
+    </script>
 </body>
 </html>
