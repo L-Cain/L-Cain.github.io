@@ -17,7 +17,7 @@ title: Teaching
       <p><strong>Level: </strong>  Undergraduate </p>
       <p><strong>Instructor: </strong>  Jon Rogowski </p>
       <p><strong>Description: </strong> This course surveys the politics of presidential power. We consider the demands and constraints of the presidency as an institution, its origins and historical development, interactions with Congress, the courts, the bureaucracy, and the public. We cover the influence presidents wield in domestic and foreign policymaking, and the ways in which presidents make decisions in a system of separated powers. </p>
-        <p><strong><a href="teaching/syllabus_10400.pdf">Syllabus</strong></p>
+        <p><strong><a href="teaching/syllabus_10400.pdf"Syllabus></a></strong></p>
        </div>
      </ul>  
  <br>
@@ -30,7 +30,7 @@ title: Teaching
       <p><strong>Instructor: </strong>  Isaac Melhaff </p>
       <p><strong>Description: </strong> This course introduces skills and concepts to enable graduate students to produce quantitative social science research. These include the basic foundations of probability and statistics, challenges and common approaches to the problem of estimation, statistical inference and measures of uncertainty, how to translate the results of statistical tests into substantive conclusions about the political and social world, and how to use the R programming language for statistical problems. </p>
         <p><strong><a href="teaching/labs.zip" download>My labs</a></strong></p>
-       <p><strong><a href="teaching/syllabus_30500.pdf">Syllabus</strong></p>
+       <p><strong><a href="teaching/syllabus_30500.pdf">Syllabus</a></strong></p>
       </div>
   </ul>
   <br>
