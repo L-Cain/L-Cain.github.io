@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Cain - {{ page.title }}</title>
+    <style>
+        /* ... all your existing CSS ... */
+    </style>
+</head>
+<body>
+    <header>...</header>
 
+    <nav>
+        <ul>
+            <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="/research" {% if page.url contains "research" %}class="active"{% endif %}>Research</a></li>
+            <li><a href="/publications" {% if page.url contains "publications" %}class="active"{% endif %}>Publications</a></li>
+            <li><a href="/teaching" {% if page.url contains "teaching" %}class="active"{% endif %}>Teaching</a></li>
+            <li><a href="/contact" {% if page.url contains "contact" %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <footer>...</footer>
+    <script>/* ... your existing JS ... */</script>
+</body>
+</html>
