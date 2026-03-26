@@ -41,19 +41,7 @@ Government</a>
     <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>What does the public think about the outsourcing of government work to the private sector? Do
-Americans anticipate higher costs and lower quality when the state contracts with private firms?
-Holding constant these outcomes, are there residual preferences for state provision of social services?
-In previous survey experiments, I have found tentative affirmative answers to these questions. These
-results indicate that the public expects better results from legislative delegation to bureaucrats and
-to non-profits than to for-profit firms or when representatives retain the prerogative. When the
-provider is held constant, I find that the public anticipates worse results from giving a private firm
-broad rather than limited discretion to enact legislative goals. This project will apply these survey
-experiments to a larger, higher-quality, and more representative population. This will enable us to
-understand the underlying mechanisms in more depth and with more precision. I will be able to
-ascertain which subpopulations hold these beliefs, and in what contexts, helping us understand the
-circumstances under which the US government engages with the private sector. Answering these
-questions is fundamental to understanding the roles and composition of the modern American state </p>
+      <p>What does the public think about the outsourcing of government work to the private sector? Do Americans anticipate higher costs and lower quality when the state contracts with private firms? Holding constant these outcomes, are there residual preferences for state provision of social services? We find tentative affirmative answers to these questions using a simple survey experiment. These results indicate that the public expects better results from legislative delegation to bureaucrats and to non-profits than to for-profit firms or when representatives retain the prerogative. When the provider is held constant, the public anticipates worse results on average from giving a private firm broad rather than limited discretion to enact legislative goals. </p>
     </div>
   </div>
 
