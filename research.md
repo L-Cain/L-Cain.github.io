@@ -33,7 +33,7 @@ and Gaps:Nine Facts About the Disparities</a>
     <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>Your abstract text goes here.</p>
+      <p>Every three years, the Federal Reserve System conducts the Survey of Consumer Finances (SCF)—one of the most detailed examinations of household wealth in the U.S. The two most recent surveys were conducted in 2019 and 2022, thus providing a valuable resource to researchers exploring wealth changes during the Covid-19 pandemic and recovery. This working paper draws from the SCF and other important sources to present data on the racial wealth gap and socioeconomic factors that impact the racial disparity in net worth between households by race and ethnicity. We demonstrate that the racial wealth gap continues to worsen, despite increased educational attainment, business formation, and homeownership.</p>
     </div>
   </div>
 </section>
