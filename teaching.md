@@ -3,7 +3,7 @@
   <p>Benjamin Franklin quipped that it is "better to be thought the fool than open your mouth and remove all doubt". That might be good advice for seeming wise, but it's a terrible way learn anything. I'd rather open my mouth and try to remove some doubt than remain the fool. </p>
   <h3>University of Chicago</h3>
   <ul>
-      <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
+      <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  Undergraduate </p>
@@ -15,7 +15,7 @@
 
 
   <ul>
-      <strong> Intro to Quantitative Social Science (PLSC 30500): </strong>  Teaching Assistant, Fall 2025 <br>
+      <strong> Intro to Quantitative Social Science (PLSC 30500): </strong>  Teaching Assistant, Fall 2025 
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  PhD </p>
@@ -28,7 +28,7 @@
   <br>
 
   <ul>
-      <strong>PLSC 49999 Math Camp: </strong> Coding Instructor, Summer 2025 <br>
+      <strong>PLSC 49999 Math Camp: </strong> Coding Instructor, Summer 2025 
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  PhD </p>
