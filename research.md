@@ -11,7 +11,7 @@ title: Research
 Government</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Jon Rogowski</a>
-    </span>
+    </span><br>
      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>We map the offices and individuals that comprised the US federal government from the founding through the 1950s. With these new data, we intend to better understand the motivations that led to civil service reform and its effects on the federal workforce.</p>
@@ -21,7 +21,7 @@ Government</a>
    <div style="margin-bottom: 1.5rem;">
     <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Misaligned Voting Diagnostics</a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Andy Eggers </a></span>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Andy Eggers </a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>Misaligned voting, when one casts a vote for a candidate they do not prefer to all others, is an important characteristic of voting systems. It may implicate strategic voting, confusion, or other behaviors. Misaligned voting is difficult to identify, and current methods may make biased estimates in identifying the overall rate and in identifying differences between voting systems. They are also ill-equipped to take in more than one dimension of voter preferences. Wepropose two new metrics, the convex hull and weak domination approaches, and test their performance in a series of simulations.</p>
@@ -29,7 +29,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Presidential Influence and Monetary Policy</a>
+    <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Presidential Influence and Monetary Policy</a><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>I investigate the influence of the President on the Federal Reserve Board of Governors. I test whether Presidents can select party loyalists to the board. I will also test the President's ability to exert political pressure on the Fed, directly, through Congress, and through public sentiment. I measure subtle effects on monetary policy through novel data on the meetings of the Federal Open Market Committee, Fed Governor retirement and their economic projections. </p>
@@ -40,7 +40,7 @@ Government</a>
     <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Delegation Preferences: Public Attitudes Towards Government Service Providers
 </a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kevin Angell </a></span>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kevin Angell </a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>What does the public think about the outsourcing of government work to the private sector? Do Americans anticipate higher costs and lower quality when the state contracts with private firms? Holding constant these outcomes, are there residual preferences for state provision of social services? We find tentative affirmative answers to these questions using a series of simple survey experiments. These results indicate that the public expects better results from legislative delegation to bureaucrats and to non-profits than to for-profit firms or when representatives retain the prerogative. When the provider is held constant, the public anticipates worse results on average from giving a private firm broad rather than limited discretion to enact legislative goals. </p>
@@ -60,7 +60,7 @@ Government</a>
     <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; text-decoration: none;">What’s New in CARTS 2.1? Updates to Our Index Tracking National 
 Retail Sales</a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Scott Brave</a>, <a href="https://coauthor1website.com">Ross Cole</a>, and <a href="https://coauthor2website.com">Ezra Karger</a></span>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Scott Brave</a>, <a href="https://coauthor1website.com">Ross Cole</a>, and <a href="https://coauthor2website.com">Ezra Karger</a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>A summary measure of multiple high-frequency indicators of retail sales (including payment card transactions, foot traffic, gas sales, and consumer sentiment), CARTS grew out of pandemic-era research that aimed to improve the timeliness and reliability of traditional measures of U.S. retail spending.</p>
@@ -82,7 +82,7 @@ and Gaps: Nine Facts About the Disparities</a>
   <div style="margin-bottom: 1.5rem;">
     <a href="papers/EE_Lit_Rev.pdf" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Recent Findings and Methodologies in Economics Research in Environmental Justice</a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Paige Weber</a>, <a href="https://coauthor1website.com">Danae Hernandez-Cortes</a>, and <a href="https://coauthor2website.com">Christopher Timmins</a></span>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Paige Weber</a>, <a href="https://coauthor1website.com">Danae Hernandez-Cortes</a>, and <a href="https://coauthor2website.com">Christopher Timmins</a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>This review synthesizes economics-oriented research in environmental justice with a focus on the last decade. We first categorize this literature into broad areas of inquiry and review main findings. Then, we review recent advances in data and methodologies that have allowed for new study designs and research questions. After identifying breakthroughs, we offer some guidance on how to continue to advance research in this area.</p>
@@ -94,7 +94,7 @@ and Gaps: Nine Facts About the Disparities</a>
    <div style="margin-bottom: 1.5rem;">
     <a href="papers/immig.pdf" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; ; text-decoration: none;">Immigration and the Labor Market in the Post-Pandemic Recovery</a>
     <br>
-    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kristin Butcher</a>, <a href="https://coauthor1website.com">Camillo Garcia-Jimeno</a>, and <a href="https://coauthor2website.com">Ryan Perry</a></span>
+    <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Kristin Butcher</a>, <a href="https://coauthor1website.com">Camillo Garcia-Jimeno</a>, and <a href="https://coauthor2website.com">Ryan Perry</a></span><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>Standard estimates based on the main household survey used to shed light on labor markets –the Current Population Survey (CPS)– suggest that after a significant drop during the pandemic, recent rapid growth has brought the foreign-born population back to, or above, levels predicted by the pre-pandemic trend. However, we document that the weighting factors used to make the CPS nationally representative have recently displayed some unusual movements and conclude that standard estimates of the foreign-born population may currently be too high. We also show that recent labor market indicators are inconsistent with increased foreign-born induced slack.</p>
