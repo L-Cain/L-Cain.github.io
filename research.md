@@ -1,6 +1,6 @@
 <section>
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
-  <p>For updated drafts, <a href="mailto:lhcain@uchicago.edu">email me!</a></p>
+  <p>For updated drafts, <a href="mailto:lhcain@uchicago.edu">email me</a>!</p>
   <div style="margin-bottom: 1.5rem;">
     <a target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Civil Service Reform and the Organization of the Federal 
 Government</a>
