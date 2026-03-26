@@ -18,7 +18,7 @@
   </div>
 </section>
 <section>
-  <h2 "style = "font-size: 1.5rem;">Publications</h2>
+  <h2 style = "font-size: 1.5rem;">Publications</h2>
   <div style="margin-bottom: 1.5rem;">
     <a href="/papers/paper3.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Paper Title Here</a>
     <br>
