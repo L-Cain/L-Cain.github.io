@@ -42,10 +42,25 @@
   
  <section>
   <h2 style = "font-size: 1.5rem;">University of North Carolina</h2>
-   <ul>
-   <strong>PLCY 310 Microeconomic Foundations of Public Policy</strong>: Tutor, Spring 2022<br>
-   </ul>
-    <ul>
-   <strong>POLI 271 Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
-    </ul>
+     <strong>PLCY 310 Microeconomic Foundations of Public Policy: </strong> Coding Instructor, Summer 2025 <br>
+      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
+    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
+      <p><strong>Level: </strong>  PhD </p>
+      <p><strong>Description: </strong> This is the preparatory math and coding background for incoming PhD students intending to do empirical work in political science. I led the coding portion, focused on R. We went from total unfamiliarity to being prepared for graduate-level coursework in quantitative methods. Topics covered include objects and boolean logic, packages and functions, tidyverse and data manipulation, data visualization, compiling and LaTeX, loops, Monte Carlo simulation, expectation, variance, and covariance, central limit theorem, the law of large numbers, the basics of distributions. My students/friends are making great use of this foundation. </p>
+      <p><strong>Resources</strong></p>
+      <img src="teaching/coinflip_convergence.gif" alt="Coin flip convergence" style="max-width: 100%; height: auto;">
+      </div>
+ </ul>
+    <strong>POLI 271 Modern Political Thought </strong> Coding Instructor, Summer 2025 <br>
+      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
+    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
+      <p><strong>Level: </strong>  PhD </p>
+      <p><strong>Instructor: </strong>  Devin Christensen </p>
+      <p><strong>Description: </strong> Survey course designed to introduce students to major political thinkers and schools of thought dating roughly from the 16th century to the present. Honors version available.
+
+</p>
+      <p><strong>Resources</strong></p>
+      <img src="teaching/coinflip_convergence.gif" alt="Coin flip convergence" style="max-width: 100%; height: auto;">
+      </div>
+  </ul>
   </section>
