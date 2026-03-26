@@ -49,7 +49,3 @@
    <strong>POLI 271 Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
     </ul>
   </section>
-
-  
-  </ul>
-</section>
