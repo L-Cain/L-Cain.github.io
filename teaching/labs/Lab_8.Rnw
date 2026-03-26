@@ -1,0 +1,105 @@
+\documentclass{article}
+\title {Lab 8}
+\author {YOUR NAME HERE}
+\usepackage{amsmath}
+
+
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+\section{Natural Log Transformation}
+
+There are three reasons one might transform a variable using logarithms. First, we need errors to be normally distributed with mean = 0 to do hypothesis testing.
+
+1) Load the military capacity data and keep only observations where expenditure and personnel are both >0. Regress military expenditure on total population, and store the residuals.
+<<fig =TRUE>>=
+library(tidyverse)
+library(ggpubr)
+
+mil_dat<-read.csv('NMC_5_0.csv')%>%
+  filter(milex > 0 & milper> 0)
+
+resid<-lm(milex~tpop,
+   data = mil_dat)$residuals%>%
+  as.vector()
+@
+
+2) Plot a histogram of the residuals and a quantile plot
+<<fig = TRUE>>=
+ggplot()+
+  geom_histogram(aes(x = resid))
+
+ggqqplot(resid)
+@
+
+3) Do the same but take the natural log of expenditure.
+<<fig = TRUE>>=
+resid2<-lm(log(milex)~tpop,
+   data = mil_dat)$residuals%>%
+  as.vector()
+
+ggplot()+
+  geom_histogram(aes(x = resid2))
+
+ggqqplot(resid2)
+@
+
+
+4) The normality assumption is most important in small samples. Why are we not as reliant on normality of errors in large samples?
+
+
+The second reason is that taking logs lets us work in percentages. This is helpful for conceptualizing the relationship between things that have nonlinear relations. What is the effect of +\$100 income? It depends on what your income is. The effect of +\%10 income is less reliant.
+
+5) Show why results the of log-transformed variables are equivalent to percent changes. What happens when we increase x slightly?
+$ln(y) = \alpha +\beta ln(x)$
+
+The third reason is less relevant at the moment, but $ln(AB)$ = ln(A) + ln(B). Consider Cobb-Douglass.
+
+
+\section{Tables}
+We need to output regressions to nice tables. 
+
+6) Output the two regressions you ran to a table using stargazer.
+<<results = tex>>=
+library(stargazer)
+
+@
+
+7) Please add a new model to that table where we regress log expenditures on population and year. Change the title and dependent variable labels to be more informative, omit standard errors, put on significance stars for 0.05 and 0.01 levels.
+
+<<results = tex>>=
+
+@
+
+8) Check if my new model has homoskedastic errors
+<<>>=
+mod<-lm(data = mil_dat%>%filter(year == max(mil_dat$year)), 
+   cinc ~ milper + milex )
+
+ggplot()+
+  geom_point(aes(x= predict(mod), y = mod$residuals))
+@
+
+
+Spoiler: it does not. We will need to use a heteroskedasticity-robust linear regression (more on this in )
+\emph{estimation})
+
+9) Output this like we did above. If stargazer doesn't work (and it doesn't), find a way around the issue, or another way to make tables.
+<<results = tex>>=
+library(estimatr)
+
+mod_robust<-lm_robust(data = mil_dat%>%filter(year == max(mil_dat$year)), 
+   cinc ~ milper + milex)
+@
+
+
+Sometimes we want to display coefficient estimates in a plot instead. Unfortunately, the scale makes this case totally useless. 
+
+10) Find a way to make this plot legible.
+<<>>=
+library(coefplot)
+coefplot(mod_robust)
+@
+
+
+\end{document}

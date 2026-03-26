@@ -1,0 +1,124 @@
+\documentclass{article}
+\title {Lab 5}
+\author {YOUR NAME HERE}
+\usepackage{amsmath}
+
+
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+<<>>=
+library(tidyverse)
+library(mosaic)
+setwd('C:/Users/festi/Dropbox/Jobs/PLSC30500_2025/Labs')
+@
+
+\section{Confidence Intervals}
+
+If I want 95\% confidence interval, I use 1.96 standard deviations. 
+
+1) Show that, on the standard normal, 95\% of the probability mass falls within two standard deviations of the mean.
+
+<<>>=
+pnorm(1.96)-pnorm(-1.96)
+@
+
+2) What if I want 80\% confidence? What about 20\%? 100\%?
+
+<<>>=
+
+conf<-.95
+z_score<-function(conf){
+  #take a confidence level and return the z score
+  alpha<-1-conf
+  r_tail<-alpha/2
+  -qnorm(r_tail)
+}
+
+z_score(.8)
+z_score(.2)
+z_score(1)
+@
+
+These are *two-tailed* confidence intervals.
+
+
+\section{Bootstrap}
+credit to: https://www.bookdown.org/jgscott/DSGI/the-bootstrap.html
+
+Uncertainty arises from the randomness inherent to our data-generating process (be it sampling variability, measurement error, whatever). So if we can approximately simulate this randomness, then we can approximately quantify our uncertainty. That’s the goal of bootstrapping: to approximate the randomness inherent to data-generating process, so that we can simulate the core thought experiment of statistical inference.
+
+
+Here's a sample of sleep data
+<<>>=
+NHANES_sleep<-read.csv('/NHANES_sleep.csv')%>%
+  mutate(SleepHrsNight = SleepHrsNight)
+setwd()
+samp<-sample(NHANES_sleep, size = 500)
+@
+
+
+3) re-sample from this sample to create a resample of equal size. Take the mean and SE of that resample. Compute a 72.3\% confidence interval around that mean sleep.
+<<>>=
+#hint: check out the resample() function from the mosaic package
+@
+
+4) Write a for loop to do the above 2e3 times, storing all the mean sleep
+<<>>=
+#initialize
+bs_means<-c()
+
+#for loop
+for (i in 1:2e3){
+  resamp<-resample(samp)
+  bs_means[i]<-mean(resamp$SleepHrsNight)
+}
+@
+
+
+5) What is the standard deviation of the bootstrapped sample means?
+<<>>=
+bs_means
+mean(samp$SleepHrsNight)
+
+sd(bs_means)
+@
+
+6) What is the formula for the standard error of sample means $se(\bar X)$? Please find our estimate using the population dataset.
+<<>>=
+sd(NH$SleepHrsNight)/sqrt(500)
+@
+
+
+7) Why can't we usually use the above? What do we use instead, and what is its formula? Please find our estimate it using our sample dataset.
+<<>>=
+sd(samp$SleepHrsNight)/sqrt(500)
+@
+
+
+We have a formula for the sample variance of sample means. We *could* derive the formulae for sample variance of some weird estimand, but it would probably be very hard. 
+
+Instead, we will use the bootstrap to categorize our uncertainty!
+
+8) Find the bootstrapped sample variance of: the proportion of sleepers who get more than 1 hour of sleep more than the average for their sex (labeled "gender" in the data)
+
+<<>>=
+for (i in 1:2e3){
+  #resample
+  df<-resample(samp)
+  
+  #mean sleep for females
+  mean_female<-df[df$Gender == 'female',]$SleepHrsNight%>%
+    mean()
+  
+  #...
+  }
+@
+
+9) Find the bootstrapped 99 percent confidence interval around the estimate from your original sample
+<<>>=
+population
+@
+
+\end{document}

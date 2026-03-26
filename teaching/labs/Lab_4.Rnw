@@ -1,0 +1,220 @@
+\documentclass{article}
+\title {Lab 4}
+\author {YOUR NAME HERE}
+\usepackage{amsmath}
+
+
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+If you are present in lab, you need only answer 10 of the following. If you are absent, answer all 14.
+
+\section{BLP}
+Below I have a data generating process from which I'm drawing a sample.\\
+
+1) Describe the joint distribution that's being drawn from.
+
+<<fig = TRUE>>=
+library(tidyverse)
+#Define a joint distribution
+n = 1000
+x<-seq(0,5, length.out = n)
+cef<-x^2
+
+y<-c()
+for (i in 1:length(cef)){
+y[i]<-rnorm(n = 1, mean = cef[i], sd = 5) + 100*sin(x)
+}
+
+#plot it!
+ggplot() +
+  geom_point(aes(x = x, y = y))
+@
+
+
+2) Add the true CEF, E[Y|X], to the plot.
+<<>>=
+#hint: add a function to a plot like this:
+ggplot() +
+  geom_point(aes(x = x, y = y))+
+  geom_function(fun = function(x) x^2, color = 'red')
+@
+
+
+3) Remind me of the formulae for $\alpha$ and $\beta$\\\\
+
+
+4) Find BLP using $\alpha$ $\beta$. We don't want to calculate the actual covariance and variance, but we can use the plug-in-principle:
+<<>>=
+alpha <-mean(y) - beta*mean(x)
+
+beta<-cov(x,y)/var(x)
+
+BLP<-alpha + beta*x 
+@
+
+5) Add the BLP to the plot.
+
+<<fig = TRUE>>=
+ggplot() +
+  geom_point(aes(x = x, y = y))+
+  geom_function(fun = function(x) x^2, color = 'red')+
+  geom_line(aes(x = x, y = BLP), color = 'blue')
+@
+
+
+Proposition: Ordinary least squares regression (often just called regression) is just the BLP.
+<<>>=
+lm(y ~x)
+@
+
+6) Add the BLP to the original plot with ggplot's 'geom smooth'
+<<fig = TRUE>>=
+ggplot(data = NULL,aes(x = x, y = y)) +
+  geom_point()+
+  geom_smooth(method ='lm') +
+  geom_line(aes(x = x, y = BLP), color = 'green')
+
+@
+
+
+
+\section{Population and Sampling}
+
+7) The following dataframe is the entire population (it's also fine to think of this as a sample from a superpopulation of possible earthquakes). Create a new data frame that is a 1/10 random sample.
+<<>>=
+set.seed(123)
+
+
+quake_df<-quakes
+quake_samp<-quake_df[sample(x = 1:nrow(quake_df),
+                size = nrow(quake_df)/10,
+                replace = T),
+                ]
+@
+
+I want to know the central tendency (estimand) of earthquake magnitude We'll choose the population parameter $\mu = E[X] = \int x f(x)$. What other parameters would meet our goal (estimand)?\\\\
+
+We're going to estimate our estimand it with the sample mean $\hat \mu = 1/n \sum(x_i)$. This is our estimator.\\\\
+
+8) What's the sample mean $\hat \mu$ given our particular sample? 
+<<>>=
+mean(quake_samp$mag)
+@
+
+9) What's the difference between it and our population parameter?
+<<>>=
+mean(quake_df$mag)
+@
+
+
+10) I want to know how weird this outcome is compared to other samples we could have taken. What's the sample variance of the estimator? The sample MSE? Is our estimator biased?
+<<>>=
+#initialize a vector for storing outcomes
+mag_mean<-c()
+se<-c()
+for (i in 1:1e4){
+  #take a random sample from the distribution (with replacement)
+  quake_samp<-quake_df[sample(x = 1:nrow(quake_df),
+                size = nrow(quake_df)/10,
+                replace = T),
+                ]
+  #store \hat \mu in a vector
+  mag_mean[i]<-mean(quake_samp$mag)
+  #calculate and store squared error
+  se[i]<-mag_mean[i] -mean(quake_df$mag)
+}
+
+#calculate variance of mu hat
+var(mag_mean)
+#calculate mean squared error of mu hat
+@
+
+
+
+11) Plot a histogram of all the $\hat \mu$ we stored, with a dashed, red, vertical line at our original estimate 
+<<fig = TRUE>>=
+ggplot()
+@
+
+Would you look at that. It's distributed normally (or at least approaching it, as our sample becomes larger and we take more samples)!
+
+\section{Estimators}
+Let's consider two different potential estimators. The first is "noisy mean", the other is "mean +3".
+<<>>=
+mean_plus_3<-function(x){
+  mean(x) + 3
+  }
+
+noisy_mean<-function(x){
+  mean(x) + rnorm(n = 1, 
+                  sd = mean(x)/4, 
+                  mean = 0)
+  }
+@
+
+12) Why should we use "mean" as our estimator instead of "noisy mean" or "mean +3"?\\\\
+
+
+
+I'm sampling from a somewhat weird distribution and computing some estimators.
+<<>>=
+library(tidyverse)
+n<-100
+
+vars<-c()
+covs<-c()
+cors<-c()
+alphas<-c()
+betas<-c()
+means<-c()
+no_cors<-c()
+
+for (i in 1:1e5){ 
+  sample_binom<-rbinom(n,1,.3)
+  sample_norm<-runif(n, 0,2)+sample_binom/2
+  no_cor<-runif(n, 0,2)
+
+  
+  # means[i]<-mean(sample_binom)
+  # vars[i]<-var(sample_binom)
+  # covs[i]<-cov(sample_binom,sample_norm)
+  cors[i]<-cor(sample_binom,sample_norm)
+  # alphas[i]<-lm(sample_norm~sample_binom)$coef[1]
+  # betas[i]<-lm(sample_norm~sample_binom)$coef[2]
+  # vars_y<-var(sample_norm)
+  no_cors[i]<-cor(sample_binom,no_cor)
+  
+  }
+ggplot()+geom_histogram(aes(x = sample_binom))
+ggplot()+geom_density(aes(x = means))
+
+ggplot()+geom_histogram(aes(x = covs))
+ggplot()+geom_density(aes(x = cors),fill = 'blue',alpha = .2,color = NA) +
+  stat_function(fun = dnorm, args = list(mean = mean(cors), sd = sd(cors)), color = 'red') 
+
+
+
+ggplot()+geom_histogram(aes(x = alphas))
+ggplot()+geom_histogram(aes(x = betas))
+@
+13) Why is everything distributed (approximately) normal? Being able to assume approximate normality will be super useful for inference later on.\\\\
+
+
+Well not everything...
+<<>>=
+ggplot()+geom_histogram(aes(x = vars))
+
+ggplot()+geom_histogram(aes(x = sqrt(vars)))
+ggplot()+geom_histogram(aes(x = sqrt(vars)*sqrt(vars_y)))
+ggplot()+geom_histogram(aes(x = covs/(sqrt(vars)*sqrt(vars_y))))
+
+
+@
+We need to be very careful about what we assume. \\
+
+14) What's going on here? Why is variance not distributed normally? 
+
+
+\end{document}

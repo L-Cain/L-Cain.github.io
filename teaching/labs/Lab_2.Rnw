@@ -1,0 +1,150 @@
+\documentclass{article}
+\title {Lab 2}
+\author {YOUR NAME HERE}
+
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+\section{Normal Distribution}
+Two important functions:
+
+\*rnorm(): samples from a normal distribution. 
+
+\*pnorm(): calculates the CDF of normal distribution (area below a particular value). Useful for integration. 
+
+Task: Create a random sample of 20 numbers from a normal distribution with mean 25 and standard deviation 5.
+<<>>=
+library(tidyverse)
+library(patchwork)
+
+num<-rnorm(20,25,5)
+@
+
+Plot the histogram
+<<>>=
+
+@
+
+
+It doesn't look much like a normal distribution...how do we address that?
+<<>>=
+
+@
+
+We use pnorm() to calculate the CDF of a normal distribution. As we discussed in class, the CDF tells you the probability of getting a random variable that is less than or equal to a particular value.\\
+
+Task: Suppose a class of 100 students took an exam, and most students scored around 50 because it was ridiculously hard. You are now trying to recalibrate the difficulty level of the class. To determine how much you need to change the coursework, you need to know how many students scored under 60. Use pnorm() to calculate that. (SD = 5)
+<<>>=
+
+@
+
+
+\section{Uniform Distribution}
+A random variable is distributed uniformly if all values in the given range are equally likely to be realized.\\
+
+Uniform distributions are easy and fun to work with. The CDF is always a rectangle, with the x-axis being the range of values, say $[a,b]$. The base of the rectangle is $b-a$, and the area of the rectangle is $1$. So the height of the rectangle is given by the reciprocal of the base Substantively, how would interpret the height of the rectangle? (the probability of some value)\\
+
+We saw above that a normal distribution is completely defined by its mean and standard deviation. What should the parameters of the uniform distribution be? \\
+
+Task: Generate a random sample of 100 numbers drawn from a uniform distribution on the unit interval.
+<<>>=
+
+@
+
+
+What would you expect the average value of the uniform distribution to be?\\
+
+Like with the normal distribution, you can also calculate the probability of realising a particular value from a uniform distribution and the probability of realising a random variable less than or equal to a particular value.\\
+
+Suppose you are at a bus stop and waiting for the bus to arrive. It could arrive at any point within the next 30 minutes. Is the bus more likely to come in the next 20 minutes or the next 30 minutes?\\
+
+What is the probability that it comes in the next 20 to 30 minutes, that is, $P(20 \leq X \leq 30)$?
+<<>>=
+
+@
+
+What would be the probability that the bus comes after 30 minutes but before an hour is up?
+<<>>=
+
+@
+
+
+
+\section{Expectation}
+
+We're defining some distributions
+<<fig = TRUE>>=
+
+#define weird distribution function
+weird <- function(x, mu, sigma){
+  denominator <- x * pi * sigma * (1 + ((log(x) - mu)/sigma)^2)^x%%0.005
+}
+
+#number of draws
+n<-500
+
+#sample from distributions
+dists<-data.frame(norm = rnorm(n,10,3),
+binom = rbinom(n,1,.3),
+unif = runif(n,3,8),
+weird = weird(seq(.0001,n/1000,1/1000),1,5))
+
+#plots
+plot_binom<-ggplot(data = dists)+
+  geom_histogram(aes(x = binom))
+
+plot_norm<-ggplot(data = dists)+
+  geom_histogram(aes(x = norm))
+
+plot_unif<-ggplot(data = dists)+
+  geom_histogram(aes(x = unif))
+
+plot_weird<-ggplot(data = dists)+
+  geom_histogram(aes(x = weird))
+
+(plot_binom+plot_norm)/(plot_unif  + plot_weird)
+@
+
+
+Write a function that does mean squared error:  $MSE = E[(X - c)^2]$
+<<>>=
+mse<-function(x,c){
+  mean((x -c)^2)
+  }
+@
+
+Let's test it!
+<<fig = TRUE>>=
+#initialize
+mse_vec<-c()
+
+#loop over distributions
+for (dist in colnames(dists)){
+
+  #get squared-error minimizing guesses
+  guess <- seq(min(dists[,dist]),
+          max(dists[,dist]),
+          length.out = n)
+  
+#MSE on each guess  
+ for (c in 1:length(guess)){
+  mse_vec[c]<- mse(x = dists[,dist],
+       c = guess[c])
+ }
+  #Plot it
+  print(ggplot()+
+    geom_point(aes(x = guess, y = mse_vec))+
+    labs(title = dist,
+         x='c',
+         y = 'MSE')) +
+    theme_bw()
+}
+@
+
+Add to the plot such that there's a vertical line at the expectation.
+
+
+What are the two definitions of $E[X]$? (continuous and discrete cases)
+Why is $E[X]$ the same as taking the mean of the distribution data? 
+\end{document}

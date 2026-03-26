@@ -1,0 +1,120 @@
+\documentclass{article}
+\title {Lab 6}
+\author {YOUR NAME HERE}
+\usepackage{amsmath}
+\usepackage{multirow}
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+\section{Camping}
+The class is on a field trip to the woods. We've told our ghost stories and eaten our s'mores, and now everyone is in their sleeping bags. Isaac thinks he hears rustling out in the woods and is scared there may be a bear nearby. He can't sleep until we're confident that there are no bears.\\
+
+After much discussion, we decide to send Isha out to investigate the potential bear. \\
+
+1) What is the null hypothesis, what is the alternative?\\
+
+Isha goes out but, being scared of bears, keeps her eyes closed and puts her fingers in her ears. She comes back in immediately and reports that she did not observe any bears.\\
+
+2) What can we conclude about the presence of bears? What is that in hypothesis-testing terminology?\\
+
+3) Is her test well-powered for bear detection? What is test power?\\
+ 
+
+Not satisfied with Isha's attempt, we send David out to look around. He realizes it's cold outside, and comes back in. He says he saw a bear shape but he didn't want to get close enough to confirm for certain.\\
+
+4) What is David's point estimate for bears? \\
+
+5) Does David's test reject the null? If your answer is "it depends", on what does it depend?\\
+
+Sick of all the uncertainty, Baharia does a thorough sweep of the entire campsite with a jar of honey to attract bears and a flashlight to spot them. Having turned over every rock and looked in every bush, she does not see any bears.\\
+
+6) Can we now conclude that there are no bears?\\
+
+7) Baharia's test does not reject the null, just as Isha's did not. Are they equally valuable (if you could only choose one, which would you choose)? \\
+
+8) What, in hypothesis testing terminology, is different between the two?\\
+
+9) Have we been conducting a one-tailed or two-tailed test? What would a lower tail mean?\\\\
+
+10) Fill out the following table for the bear context. Which of the quadrants is represented by $\alpha$? 
+\begin{table}[h]
+\centering
+\begin{tabular}{cc|c|c|}
+\multicolumn{2}{c}{} & \multicolumn{2}{c}{\textbf{Truth}} \\
+\multicolumn{2}{c}{} & $H_0$ False & $H_0$ True \\
+\cline{3-4}
+\multirow{2}{*}{\textbf{Decision}} &  Reject &  &  \\
+\cline{3-4}
+& Fail to Reject $$ & & \\
+\cline{3-4}
+\end{tabular}
+\caption{Hypothesis Testing Decision Matrix}
+\end{table}
+
+11) I hate type I error. Describe a test that would totally minimize type I error under all circumstances. Why wouldn't we use such a test?\\
+
+
+<<echo=FALSE,fig =TRUE>>=
+library(ggplot2)
+library(ggforce)
+
+n<-130
+stars<-data.frame(x = runif(n,-2,2),
+                  y = runif(n,-2,2),
+                  alpha = runif(n,0,.3))
+
+# Create a bear's face using ggplot2
+bear_face <- ggplot() +
+ 
+  #stars
+  geom_point(data = stars,aes(x = x, y =y, alpha = alpha, size = runif(n,0,100)), color = 'gold', shape = 8)+
+  
+  # Head (large circle)
+  geom_circle(aes(x0 = 0, y0 = 0, r = 1.5), fill = "#8B4513", color = "#654321", size = 1.5) +
+  
+  
+    
+  # Left ear
+  geom_circle(aes(x0 = -1, y0 = 1.3, r = 0.5), fill = "#8B4513", color = "#654321", size = 1) +
+  geom_circle(aes(x0 = -1, y0 = 1.3, r = 0.3), fill = "#D2691E", color = NA) +
+  
+  # Right ear
+  geom_circle(aes(x0 = 1, y0 = 1.3, r = 0.5), fill = "#8B4513", color = "#654321", size = 1) +
+  geom_circle(aes(x0 = 1, y0 = 1.3, r = 0.3), fill = "#D2691E", color = NA) +
+  
+  # Snout (lighter oval)
+  geom_ellipse(aes(x0 = 0, y0 = -0.4, a = 0.8, b = 0.6, angle = 0), 
+               fill = "#D2B48C", color = "#654321", size = 1) +
+  
+  # Nose
+  geom_ellipse(aes(x0 = 0, y0 = 0.1, a = 0.2, b = 0.15, angle = 0), 
+               fill = "#000000", color = NA) +
+  
+  # Left eye
+  geom_circle(aes(x0 = -0.5, y0 = 0.5, r = 0.15), fill = "#000000", color = NA) +
+  geom_circle(aes(x0 = -0.5, y0 = 0.55, r = 0.05), fill = "#FFFFFF", color = NA) +
+  
+  # Right eye
+  geom_circle(aes(x0 = 0.5, y0 = 0.5, r = 0.15), fill = "#000000", color = NA) +
+  geom_circle(aes(x0 = 0.5, y0 = 0.55, r = 0.05), fill = "#FFFFFF", color = NA) +
+  
+  # Mouth (smile)
+  geom_curve(aes(x = -0.3, y = -0.5, xend = 0.3, yend = -0.5),
+             curvature = 0.5, size = 1.2, color = "#654321") +
+  
+
+  
+  # Coordinate system and theme
+  coord_fixed() +
+  theme_void() +
+  theme(plot.background = element_rect(fill = "darkblue", color = NA),
+        legend.position = 'none') +
+  xlim(-2, 2) +
+  ylim(-2, 2)
+
+# Display the bear
+print(bear_face)
+@
+
+\end{document}
