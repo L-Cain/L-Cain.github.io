@@ -5,14 +5,14 @@
   <ul>
     <li>
       <strong>PLSC 10400: Politics of the American Presidency</strong>: Teaching Assistant, Winter 2026<br>
-      [Description]
+      Undergraduate
     </li>
   </ul>
 
   <ul>
     <li>
-      <strong>PLSC 30500: Intro to Quantitative Social Science</strong>: Head Teaching Assistant, Fall 2025<br>
-      [Description]
+      <strong>PLSC 30500: Intro to Quantitative Social Science</strong>: Teaching Assistant, Fall 2025<br>
+      PhD
     </li>
   </ul>
 
@@ -25,6 +25,6 @@
   
   <h3>University of North Carolina</h3>
   <ul>
-    <li>[Course or event], [Institution], [Year]</li>
+   <strong>POLI 271: Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
   </ul>
 </section>
