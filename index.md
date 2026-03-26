@@ -16,5 +16,5 @@ title: Home
  
   <p>I have a special interest in the US Federal Reserve, having worked at the Federal Reserve Bank of Chicago for two years before beginning my Ph.D. There, my role was primarily in monetary policy communication. In addition, I published work on economic forecasting, immigration, and racial disparity. Before that, I completed my undergraduate education at the University of North Carolina, where I received a B.A. in Political Science and a B.S. Economics.</p>
  
-  <p>My CV is available here. I can be reached at lhcain@uchicago.edu.</p>
+  <p>My CV is available here. Please reach me at lhcain@uchicago.edu.</p>
 </section>
