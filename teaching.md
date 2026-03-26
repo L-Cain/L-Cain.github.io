@@ -37,13 +37,14 @@
       <img src="teaching/coinflip_convergence.gif" alt="Coin flip convergence" style="max-width: 100%; height: auto;">
       </div>
   </ul>
-
+</section>
   
  <section>
   <h2 style = "font-size: 1.5rem;">University of North Carolina</h2>
    <ul>
    <strong>PLCY 310 Microeconomic Foundations of Public Policy</strong>: Tutor, Spring 2022<br>
   </ul>
+  </section>
 
    <ul>
    <strong>POLI 271 Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
