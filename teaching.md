@@ -43,10 +43,11 @@
   <h2 style = "font-size: 1.5rem;">University of North Carolina</h2>
    <ul>
    <strong>PLCY 310 Microeconomic Foundations of Public Policy</strong>: Tutor, Spring 2022<br>
-  </ul>
+   </ul>
+    <ul>
+   <strong>POLI 271 Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
   </section>
 
-   <ul>
-   <strong>POLI 271 Modern Political Thought</strong>: Teaching Assistant, Summer 2020<br>
+  
   </ul>
 </section>
