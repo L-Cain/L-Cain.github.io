@@ -6,7 +6,7 @@ title: Teaching
 <section>
  <h2 style="font-size: 1.5rem;">
   <a href="https://www.uchicago.edu" target="_blank">
-    <img src="pheonix.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
+    <img src="phoenix.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
   University of Chicago
 </h2>
