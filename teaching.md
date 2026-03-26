@@ -6,7 +6,7 @@ title: Teaching
 <section>
  <h2 style="font-size: 1.5rem;">
   <a href="https://www.uchicago.edu" target="_blank">
-    <img src="teaching/uchicago_logo.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
+    <img src="pheonix.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
   University of Chicago
 </h2>
@@ -50,7 +50,7 @@ title: Teaching
  <section>
   <h2 style="font-size: 1.5rem;">
   <a href="https://www.unc.edu" target="_blank">
-    <img src="teaching/unc_logo.png" alt="UNC" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
+    <img src="well.png" alt="UNC" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
   University of North Carolina
 </h2>
