@@ -1,6 +1,6 @@
 <section>
   <h2>Teaching</h2>
-  <p>Benjamin Franklin quipped that "it is better to remain silent and let them think you a fool than to open one's mouth and remove all doubt"</p>
+  <p>Benjamin Franklin quipped that it is "Better to be thought fhe fool than open your mouth and remove all doubt". Boy was he wrong.</p>
   <h3>University of Chicago</h3>
   <ul>
       <strong>PLSC 10400 Politics of the American Presidency</strong>: Teaching Assistant, Winter 2026 <br>
