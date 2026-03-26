@@ -34,7 +34,7 @@
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  PhD </p>
       <p><strong>Description: </strong> This is the preparatory math and coding background for incoming PhD students intending to do empirical work in political science. I led the coding portion, focused on R. We went from total unfamiliarity to being prepared for graduate-level coursework in quantitative methods. Topics covered include objects and boolean logic, packages and functions, tidyverse and data manipulation, data visualization, compiling and LaTeX, loops, Monte Carlo simulation, expectation, variance, and covariance, central limit theorem, the law of large numbers, the basics of distributions. My students/friends are making great use of this foundation. </p>
-      <p><strong><a href="https://github.com/L-Cain/L-Cain.github.io/tree/main/teaching/labs">Resources</a></strong></p>
+      <p><strong><a href="teahing/math_camp_resources"download>Resources</a></strong></p>
       <img src="teaching/coinflip_convergence.gif" alt="Coin flip convergence" style="max-width: 100%; height: auto;">
       </div>
   </ul>
