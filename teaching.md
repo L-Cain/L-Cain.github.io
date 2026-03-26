@@ -8,6 +8,15 @@
       [Description]
     </li>
   </ul>
+
+  <ul>
+    <li>
+      <strong><a>href PLSC 30500: Intro to Quantitative Social Science</a></strong> — Head Teaching Assistant, Fall 2026<br>
+      [Description]
+    </li>
+  </ul>
+
+  
   <h3>University of North Carolina</h3>
   <ul>
     <li>[Course or event], [Institution], [Year]</li>
