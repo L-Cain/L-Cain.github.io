@@ -14,7 +14,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Misaligned Voting Diagnostics</a>
+    <a href="papers/hull_early.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">Misaligned Voting Diagnostics</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">Scott Brave</a>, <a href="https://coauthor1website.com">Ross Cole</a>, and <a href="https://coauthor2website.com">Ezra Karger</a></span>
 <br>
