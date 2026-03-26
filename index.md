@@ -2,7 +2,13 @@
 layout: default
 title: Home
 ---
- 
+ <section style="text-align: center;">
+    <img src="/profile.jpeg" alt="Profile Photo" class="profile-img">
+    <h1 style="color: #8080cc; margin-top: 1rem;">Lucas Cain</h1>
+    <p>PhD Student</p>
+    <p>University of Chicago</p>
+</section>
+
 <section>
   <p>I am a PhD Student in the Department of Political Science at the University of Chicago. My work focuses on delegation decisions and the selection and management of unelected members of government. I apply the tools of causal inference to the political institutions relevant to appointees, civil servants, and government contractors. </p>
  
