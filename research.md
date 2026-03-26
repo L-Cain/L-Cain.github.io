@@ -1,7 +1,7 @@
 <section>
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
   <div style="margin-bottom: 1.5rem;">
-    <a href="/papers/paper1.pdf" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">What’s New in CARTS 2.1? Updates to Our Index Tracking National 
+    <a href="https://www.chicagofed.org/publications/chicago-fed-insights/2024/new-and-improved-carts" target="_blank" style="font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none;">What’s New in CARTS 2.1? Updates to Our Index Tracking National 
 Retail Sales</a>
     <br>
     <span style="font-size: 0.95rem; color: #555;">With <a href="https://coauthor1website.com">First Coauthor</a> and <a href="https://coauthor2website.com">Second Coauthor</a></span>
