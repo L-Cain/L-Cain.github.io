@@ -2,11 +2,13 @@
 layout: default
 title: Home
 ---
-<div style="text-align: center; padding: 2rem 0 1rem;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; padding: 2rem 0 1rem;">
     <img src="/profile.jpeg" alt="Profile Photo" class="profile-img">
-    <h1 style="color: #8080cc; margin-top: 0.75rem; margin-bottom: 0;">Lucas Cain</h1>
-    <p>PhD Student</p>
-    <p>University of Chicago</p>
+    <div>
+        <h1 style="color: #8080cc; margin-bottom: 0;">Lucas Cain</h1>
+        <p>PhD Student</p>
+        <p>University of Chicago</p>
+    </div>
 </div>
 
 <section>
