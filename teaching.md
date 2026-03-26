@@ -8,6 +8,7 @@
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>**Description: **This course surveys the politics of presidential power. We consider the demands and constraints of the presidency as an institution, its origins and historical development, interactions with Congress, the courts, the bureaucracy, and the public. We cover the influence presidents wield in domestic and foreign policymaking, and the ways in which presidents make decisions in a system of separated powers. </p>
       <p>**Level:** Undergraduate </p>
+      <p>**Instructor:** Jon Rogowski </p>
     </div>
   </ul>
 
