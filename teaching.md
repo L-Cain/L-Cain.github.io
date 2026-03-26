@@ -1,5 +1,3 @@
-layout: default
-title: Teaching
 <section>
   <h2>Teaching</h2>
   <p>I am committed to [teaching philosophy in one sentence].</p>
