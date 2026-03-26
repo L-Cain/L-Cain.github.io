@@ -21,7 +21,7 @@
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  Graduate </p>
       <p><strong>Instructor: </strong>  Isaac Melhaff </p>
-      <p><strong>Description: </strong> This course surveys the politics of presidential power. We consider the demands and constraints of the presidency as an institution, its origins and historical development, interactions with Congress, the courts, the bureaucracy, and the public. We cover the influence presidents wield in domestic and foreign policymaking, and the ways in which presidents make decisions in a system of separated powers. </p>
+      <p><strong>Description: </strong> This course introduces skills and concepts to enable graduate students to produce quantitative social science research. These include the basic foundations of probability and statistics, challenges and common approaches to the problem of estimation, statistical inference and measures of uncertainty, how to translate the results of statistical tests into substantive conclusions about the political and social world, and how to use the R programming language for statistical problems. </p>
        <p><strong>Labs</p>
       </div>
   </ul>
