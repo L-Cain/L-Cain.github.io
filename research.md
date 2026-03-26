@@ -106,3 +106,4 @@ and Gaps: Nine Facts About the Disparities</a>
 
   
 </section>
+<p style="color: #bbb; font-size: 0.8rem; text-align: right; margin-top: -1rem;">My Erdős number is finite, which is the nicest thing I can say about it.</p>
