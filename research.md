@@ -109,6 +109,6 @@ and Gaps: Nine Facts About the Disparities</a>
     </div>
   </div>
 
-<p style="color: #bbb; font-size: 0.8rem; text-align: right; margin-top: -1rem;">My Erd&#337;s number is finite, but only barely. <br> Computing it is an exercise left to the reader.</p>
-
 </section>
+
+<p style="color: #bbb; font-size: 0.8rem; text-align: right; margin-top: -1rem;">My Erd&#337;s number is finite, but only barely. <br> Computing it is an exercise left to the reader.</p>
