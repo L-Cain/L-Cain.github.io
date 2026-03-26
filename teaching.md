@@ -5,10 +5,10 @@ title: Teaching
 
 <section>
  <h2 style="font-size: 1.5rem;">
+   University of Chicago
   <a href="https://www.uchicago.edu" target="_blank">
     <img src="phoenix.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
-  University of Chicago
 </h2>
   <ul>
       <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
@@ -49,10 +49,10 @@ title: Teaching
   
  <section>
   <h2 style="font-size: 1.5rem;">
-  <a href="https://www.unc.edu" target="_blank">
+    University of North Carolina
+   <a href="https://www.unc.edu" target="_blank">
     <img src="well.png" alt="UNC" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
-  University of North Carolina
 </h2>
    <ul>
      <strong>Microeconomic Foundations of Public Policy (PLCY 310): </strong> Tutor, Spring 2022 <br>
