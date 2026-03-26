@@ -1,3 +1,8 @@
+---
+layout: default
+title: Research
+---
+
 <section>
   <h2 style = "font-size: 1.5rem;">Works in Progress</h2>
   <p>For updated drafts, <a href="mailto:lhcain@uchicago.edu">email me</a>!</p>
