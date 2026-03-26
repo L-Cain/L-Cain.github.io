@@ -59,7 +59,7 @@ and Gaps: Nine Facts About the Disparities</a>
 <br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.5rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>This review synthesizes economics-oriented research in environmental justice with a focus on the last decade. We first categorize this literature into broad areas of inquiry and review main findings. Then, we review recent advances in data and methodologies that have allowed for new study designs and research questions. After identifying breakthroughs, we offer some guidance on how to continue to advance research in this area.</p>
+      <p>Standard estimates based on the main household survey used to shed light on labor markets –the Current Population Survey (CPS)– suggest that after a significant drop during the pandemic, recent rapid growth has brought the foreign-born population back to, or above, levels predicted by the pre-pandemic trend. However, we document that the weighting factors used to make the CPS nationally representative have recently displayed some unusual movements and conclude that standard estimates of the foreign-born population may currently be too high. We also show that recent labor market indicators are inconsistent with increased foreign-born induced slack.</p>
     </div>
   </div>
 
