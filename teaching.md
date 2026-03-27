@@ -17,7 +17,7 @@ title: Teaching
       <p><strong>Level: </strong>  Undergraduate </p>
       <p><strong>Instructor: </strong>  Jon Rogowski </p>
       <p><strong>Description: </strong> This course surveys the politics of presidential power. We consider the demands and constraints of the presidency as an institution, its origins and historical development, interactions with Congress, the courts, the bureaucracy, and the public. We cover the influence presidents wield in domestic and foreign policymaking, and the ways in which presidents make decisions in a system of separated powers. </p>
-        <p><strong><a href="teaching/syllabus_10400.pdf"Syllabus></a></strong></p>
+        <p><strong><a href="teaching/syllabus_10400.pdf">Syllabus</a></strong></p>
        </div>
      </ul>  
  <br>
