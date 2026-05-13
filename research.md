@@ -29,10 +29,20 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">Presidential Influence and Monetary Policy</a><br>
+    <a target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">By Loyalty and Leverage: Presidential Influence at the Federal Reserve </a><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
-      <p>I investigate the influence of the President on the Federal Reserve Board of Governors. I test whether Presidents can select party loyalists to the board. I will also test the President's ability to exert political pressure on the Fed, directly, through Congress, and through public sentiment. I measure subtle effects on monetary policy through novel data on the meetings of the Federal Open Market Committee, Fed Governor retirement and their economic projections. </p>
+      <p>Pundits and central bankers alike tout the independence and apolitical stance of the Federal
+Reserve System, but presidents have long sought to influence monetary policy for electoral
+ends. Do presidents exert influence over the Federal Reserve? I identify two potential
+channels: the selection of co-partisan appointees on the Board of Governors (loyalty) and the
+president’s capacity to incentivize these policymakers (leverage). I test these possible channels
+of influence with novel data sources. I find that the Federal Reserve has been influenced by direct
+meetings with the president, and I provide tentative evidence against presidential influence
+through Congress or public opinion. These findings cast light on the mechanisms and effects
+of presidential influence over monetary policy and further our understanding of the extent and
+nature of the Federal Reserve’s independence and the limits of the presidency’s influence over
+the administrative state. </p>
     </div>
   </div>
 
