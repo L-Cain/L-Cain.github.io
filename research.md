@@ -43,9 +43,9 @@ through Congress or public opinion. These findings cast light on the mechanisms 
 of presidential influence over monetary policy and further our understanding of the extent and
 nature of the Federal Reserve’s independence and the limits of the presidency’s influence over
 the administrative state. 
-     </div>
-     <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" download>Draft</a> <br>
+    </div>
     </p>
+      <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" download>Drafty</a> <br>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
