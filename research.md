@@ -44,7 +44,9 @@ of presidential influence over monetary policy and further our understanding of 
 nature of the Federal Reserve’s independence and the limits of the presidency’s influence over
 the administrative state. </p>
     </div>
-     <br> <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" download>Draftation</a> <br>
+    <br>
+<a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
+<br>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
