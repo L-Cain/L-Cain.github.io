@@ -42,10 +42,9 @@ meetings with the president, and I provide tentative evidence against presidenti
 through Congress or public opinion. These findings cast light on the mechanisms and effects
 of presidential influence over monetary policy and further our understanding of the extent and
 nature of the Federal Reserve’s independence and the limits of the presidency’s influence over
-the administrative state. 
+the administrative state. </p>
     </div>
-    </p>
-      <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" download>Drafty</a> <br>
+      <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" download>Drafter</a> <br>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
