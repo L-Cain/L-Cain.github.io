@@ -29,7 +29,7 @@ Government</a>
   </div>
 
    <div style="margin-bottom: 1.5rem;">
-    <a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" target="_blank" style="font-size: 1.1rem; color: #555; font-weight: 600; ; text-decoration: none;">By Loyalty and Leverage: Presidential Influence at the Federal Reserve </a><br>
+    <a href="papers/By_Loyalty_and_Leverage%205.13.2026.pdf" target="_blank" class="paper-title" style="font-size: 1.1rem; font-weight: 600;">By Loyalty and Leverage: Presidential Influence at the Federal Reserve</a><br>
     <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Abstract ▼'?'Abstract ▲':'Abstract ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Abstract ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p>Pundits and central bankers alike tout the independence and apolitical stance of the Federal
