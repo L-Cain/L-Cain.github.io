@@ -45,7 +45,6 @@ nature of the Federal Reserveâ€™s independence and the limits of the presidencyâ
 the administrative state. </p>
     </div>
     <br>
-<a href="papers/By_Loyalty_and_Leverage 5.13.2026.pdf" target="_blank" rel="noopener noreferrer">Draft</a>
 <br>
   </div>
 
