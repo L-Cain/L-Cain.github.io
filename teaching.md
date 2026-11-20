@@ -10,7 +10,21 @@ title: Teaching
     <img src="phoenix.png" alt="UChicago" style="height: 1.2em; vertical-align: middle; margin-right: 0.4rem;">
   </a>
 </h2>
+ 
   <ul>
+      <strong>Intro to American Politics (PLSC 28801): </strong> Teaching Assistant, Fall 2026 <br>
+      <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
+    <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
+      <p><strong>Level: </strong>  Undergraduate </p>
+      <p><strong>Instructor: </strong>  Ruth Bloch Rubin </p>
+      <p><strong>Description: </strong> This class teaches how political scientists generally think about and analyze American politics. We identify and trace the dynamics and patterns that structure our political institutions and interogate those dynamics and patterns shape the behavior of citizens, officeholders, and political activists. </p>
+        <p><strong><a href="teaching/syllabus_10400.pdf">Syllabus</a></strong></p>
+       </div>
+     </ul>  
+ <br>
+
+ 
+ <ul>
       <strong>Politics of the American Presidency (PLSC 10400): </strong> Teaching Assistant, Winter 2026 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
@@ -36,7 +50,7 @@ title: Teaching
   <br>
 
   <ul>
-      <strong> Math Camp (PLSC 49999): </strong> Coding Instructor, Summer 2025 <br>
+      <strong> Math Camp (PLSC 49999): </strong> Coding Instructor, Summer 2025, Summer 2026 <br>
       <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';this.textContent=this.textContent==='Details ▼'?'Details ▲':'Details ▼';" style="margin-top:0.1rem;background:none;border:none;color:#8080cc;padding:0.25rem 0;cursor:pointer;font-family:inherit;font-size:0.9rem;">Details ▼</button>
     <div style="display:none;margin-top:0.75rem;padding:1rem;background:#f0f0f8;border-left:3px solid #8080cc;border-radius:0 4px 4px 0;">
       <p><strong>Level: </strong>  PhD </p>
