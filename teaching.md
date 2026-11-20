@@ -18,7 +18,7 @@ title: Teaching
       <p><strong>Level: </strong>  Undergraduate </p>
       <p><strong>Instructor: </strong>  Ruth Bloch Rubin </p>
       <p><strong>Description: </strong> This class teaches how political scientists generally think about and analyze American politics. We identify and trace the dynamics and patterns that structure our political institutions and interogate those dynamics and patterns shape the behavior of citizens, officeholders, and political activists. </p>
-        <p><strong><a href="teaching/syllabus_10400.pdf">Syllabus</a></strong></p>
+        <p><strong><a href="teaching/syllabus_28801.pdf">Syllabus</a></strong></p>
        </div>
      </ul>  
  <br>
